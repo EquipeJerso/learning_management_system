@@ -48,7 +48,7 @@ De forma simples e intuitiva o LMS - Learning Management System, deve funcionar 
   - [Docker](https://www.docker.com/)
 
 ### Aplicação Rodando
-![](https://media.giphy.com/media/VJF0zRSXkUOvfar0g7/giphy.gif)
+![](https://media.giphy.com/media/A0IZRE1hhCFkBiG2eg/giphy.gif)
 ### Modelagem de dados
 ![](https://user-images.githubusercontent.com/61850709/121132550-a8f6b980-c807-11eb-8bd4-fad31f722263.png)
 ## Sprints
