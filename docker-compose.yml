@@ -1,0 +1,31 @@
+version: '3.0'
+
+services:
+  web:
+    build: .
+    image: lms
+    restart: "no"
+    environment:
+      - DB_HOST
+      - DB_USER
+      - DB_PASS
+      - DB_DEV
+      - DB_TEST
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    restart: "no"
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    volumes:
+      - postgresdb:/var/lib/postgresql/data/
+
+volumes:
+  postgresdb:
