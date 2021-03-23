@@ -32,7 +32,7 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 *Product Owner:*
 - MAYCON RAFAEL CRUZ SILVA
   
-   Backlog Total
+ *Backlog Total
 
 *Sprint 1(crud):*
 -	Acesso por meio de login e senha;
