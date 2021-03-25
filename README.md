@@ -86,3 +86,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+- [Branch-1](https://github.com/Felipe-Silva2002/projetoIntegrador/tree/Branch-0)  08/03/2021 até 28/03/2021
+
+- [Branch-2]()  29/03/2021 até 18/04/2021
+
+- [Branch-3]()  26/04/2021 até 16/05/2021
+
+- [Branch-4]()  17/05/2021 até 11/06/2021
