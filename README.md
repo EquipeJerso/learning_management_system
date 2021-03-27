@@ -36,7 +36,7 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 *Product Owner:*
 - MAYCON RAFAEL CRUZ SILVA
   
-### Backlog Total
+### Backlog 
 
 *Sprint 1(crud):*
 -	Acesso por meio de login e senha;
@@ -45,48 +45,4 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 -	Cadastro de usuários - administrador, gestor, tutor, aluno;
 -	Catálogo de cursos;
 
-*Sprint 2(estrutura e arquivos):*
--	Interface personalizável;
--	Trilha de aprendizado; 
--	Pílulas de conhecimento; 
--	Repositório de documentos;
--	Biblioteca de conteúdo;
--	Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
--	Link direto para zoom ou meet. 
 
-*Sprint 3 (tarefas):*
--	Avaliação de reação;
--	Avaliação de habilidades técnicas com feedback; 
--	Avaliação de competências comportamentais; 
--	Relatórios personalizáveis com dashboards de indicadores; 
--	Emissão de certificado automático após conclusão (aprovação/reprovação);
-
-*Sprint 4 (finalização):*
--	Destaques; 
--	Chatbot para atendimento aos usuários; 
--	Mensagens automáticas personalizáveis e enviadas por e-mail; 
--	Calendário de eventos;
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
