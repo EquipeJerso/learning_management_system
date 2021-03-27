@@ -5,7 +5,7 @@
 ## Grafico Burndown
 ![Burndown.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/Burndown.png)
 ## Card 1 Dessa sprint
-![Burndown.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/Burndown.png)
+![card 1.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/card%201.png)
 
 ### Objetivo ###
 
