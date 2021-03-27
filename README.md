@@ -1,5 +1,9 @@
 # README
 ## Projeto Integrador FATECSJC 2021_1 ##
+## Sprint 1
+
+## Grafico Burndown
+![Burndown.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/Burndown.png)
 
 ### Objetivo ###
 
