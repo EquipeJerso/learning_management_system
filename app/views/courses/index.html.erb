@@ -1,0 +1,9 @@
+<h1>Cursos Disponíveis</h1>
+
+<% @courses.each do |course| %>
+  <div style="border-style: solid; border-width: 2px; border-radius: 8px; border-color: #d1d7dc">
+    <p style="margin-left: 6px">Nome: <%= course.name %></p>
+    <p style="margin-left: 6px">Descrição: <%= course.description %></p>
+  </div><br>
+
+<% end %>
