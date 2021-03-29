@@ -6,6 +6,8 @@
 ![Burndown.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/Burndown.png)
 ## Card 1 Dessa sprint
 ![card 1.png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/card%201.png)
+### Aplicação Rodando
+![](https://media4.giphy.com/media/x4pkp94Z7oBPw6menr/giphy.gif)
 
 ### Objetivo ###
 
