@@ -1,4 +1,5 @@
-FROM ruby:3.0
+FROM ruby:3.0.0
+
 
 ENV DB_USER=postgres
 ENV DB_PASS=postgres
@@ -15,6 +16,8 @@ RUN apt-get update \
     &&  apt-get update \
     &&  apt-get install -y \
     yarn
+
+
 
 RUN bundle config --global frozen 1
 
