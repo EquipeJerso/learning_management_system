@@ -1,4 +1,5 @@
-FROM ruby:3.0
+FROM ruby:3.0.0
+
 
 ENV DB_USER=postgres
 ENV DB_PASS=postgres
