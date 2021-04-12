@@ -1,6 +1,10 @@
 FROM ruby:3.0.0
 
 
+ENV DB_USER=postgres
+ENV DB_PASS=postgres
+ENV DB_HOST=db
+
 RUN apt-get update \
     &&  apt-get install -y \
         postgresql-client \
