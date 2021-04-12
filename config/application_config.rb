@@ -7,4 +7,6 @@ Rails.application.configure do
 
   config.i18n.load_path += Dir[Rails.root.join("config/locales", "**/*.yml").to_s]
 
+  ENV['RAILS_ADMIN_THEME'] = 'rollincode'
+
 end

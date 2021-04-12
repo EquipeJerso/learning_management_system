@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.1'
+ruby '3.0.0'
 
 gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -15,6 +15,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'twitter-bootstrap-rails'
