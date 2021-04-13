@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    var url = new URL(window.location.href);
+    var c = url.searchParams.get("L");
+
+    function RedirectingToMeeting() {
+      //https://meet.google.com/ucr-ezrb-etg
+      window.location.href = c;
+    }
+
+
+    $('.message a').click(function () {
+      $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+    });
+
+  </script>
+
+</head>
+
+<body>
+
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="name" />
+        <input type="password" placeholder="password" />
+        <input type="text" placeholder="email address" />
+        <button> create</button>
+        <p class="message">Reporte seu problema <a href="#">Sign In</a></p>
+      </form>
+      <form class="login-form">
+        <input class="form" type="button" onclick="RedirectingToMeeting()" value="Google Meet">
+
+        <p class="message">Reporte seu problema <a href="#">click aqui</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
