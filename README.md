@@ -1,6 +1,6 @@
 # LMS
 ## Projeto Integrador FATECSJC 2021_1
-
+### Sprint 2
 ### Objetivo
 
   Desenvolver uma plataforma web voltada ai ensino á distância para a gestão e oferta de conhecimento, dando suporte ás mais diversas arquiteturas de aprendizagem, alinhado com os objetivos estratégicos a serem alcançados por cada organização que a empresa parceira da FATEC atende como clientes.
