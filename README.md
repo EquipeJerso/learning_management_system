@@ -70,7 +70,7 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 ### Sprints
 - [Sprint-1](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/README.md)  08/03/2021 até 28/03/2021
 
-- [Sprint-2]()  29/03/2021 até 18/04/2021
+- [Sprint-2](https://github.com/gabriel-fabian/learning_management_system/tree/Sprint-2)  29/03/2021 até 18/04/2021
 
 - [Sprint-3]()  26/04/2021 até 16/05/2021
 
