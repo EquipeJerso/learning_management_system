@@ -3,13 +3,13 @@
 ## Sprint 2
 
 ## Grafico Burndown
-![]()
+![Grafico Burndown](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-2/Grafico%20Burndown.png)
 ## Card 1 Dessa sprint
 ![]()
 ### Aplicação Rodando
 ![]()
 ### Modelagem de dados
-
+![]()
 ### Objetivo ###
 
   Desenvolver uma plataforma web voltada ai ensino á distância para a gestão e oferta de conhecimento, dando suporte ás mais diversas arquiteturas de aprendizagem, alinhado com os objetivos estratégicos a serem alcançados por cada organização que a empresa parceira da FATEC atende como clientes.
