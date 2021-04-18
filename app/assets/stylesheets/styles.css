@@ -10268,9 +10268,7 @@ form .row:first-child .floating-label-form-group {
 
 }
 
-#cursos{
-  margin-top: 80px;
-}
+
 
 .card-cursos img {
     height: 54px;
@@ -10292,7 +10290,7 @@ form .row:first-child .floating-label-form-group {
   color:  black;
 }
 .card-cursos{
-  height: 135px;
+  height: 100px;
   text-decoration: none;
   box-shadow: 0 10px 10px rgb(126 126 126 / 10%);
   border: solid 1px #ecf5ff;
@@ -10317,24 +10315,63 @@ form .row:first-child .floating-label-form-group {
 .tempo-curso img{
   height: 30px;
   width: 20px;
+  margin-left: -40px;
+  padding-top: 10px;
 }
 
 .tempo-curso span{
-  padding-top: 5px;
+  padding-top: 10px;
   display: flex;
 }
 
 @media only screen and (max-width: 600px) {
-  #portfolio img{
-    margin: 0 auto ;
-    width: 70%;
-    display: flex;
-  }
+    #portfolio img{
+      margin: 0 auto ;
+      width: 70%;
+      display: flex;
+    }
 
-  #cursos h4{
-    text-align: center;
-  }
-  .card-cursos{
-    margin-bottom: 20px;
-  }
+    #cursos h4{
+      text-align: center;
+    }
+    .card-cursos{
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      padding-top: 20px;
+      padding-bottom: 20px; 
+      
+    }
+    
 }
+
+.new-course label{
+  font-size: 20px;
+}
+
+
+ #send-btn input {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 7px;
+  border: unset;
+}
+
+
+#send-btn input {
+  background: #28a745;
+}
+
+#cursos .col-md-4{
+  margin-top : 20px;
+}
+
+.edit_user{
+  margin-left: 20px;
+}
+
+video{
+  width: 100%;
+}
+

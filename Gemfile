@@ -5,6 +5,7 @@ ruby '3.0.0'
 
 gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'bootstrap', '~> 4.0'
 gem 'cancancan'
 gem 'devise'
 gem 'devise-bootstrap-views'

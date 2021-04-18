@@ -3,18 +3,6 @@
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cursos</h2>
                 <br><br><br>
-
-
-
-<!--<% @courses.each do |course| %>
-
-  <div style="border-style: solid; border-width: 2px; border-radius: 8px; border-color: #d1d7dc">
-    <p style="margin-left: 6px">Nome: <%= course.name %></p>
-    <p style="margin-left: 6px">Descrição: <%= course.description %></p>
-  </div><br>
-
-<% end %> -->
-
                 <div class="col-md-12">
                     <h4>UI - User Interface</h4>
                 </div>
@@ -23,18 +11,19 @@
                     <% @courses.each do |course| %>
                       <div class="col-md-4">
                           <div class="card-cursos">
-                              <a href="">
+                              <%= link_to course_path(course) do%>
                                 <!--  <img class="icon" src="assets/img/portfolio/sketch-design-mobile.svg" alt=""> -->
                                  <%= image_tag 'portfolio/sketch-design-mobile' , class: "icon" %> 
 
                                   <p><%= course.name %></p>
-                              </a>
-                              <div class="tempo-curso">
-                                 <!-- <img class="icon" src="assets/img/portfolio/icon-time-card.1616501197.svg" alt=""> -->
-                                  <%= image_tag 'portfolio/sketch-design-mobile' , class: "icon" %> 
+                              
+                                <div class="tempo-curso">
+                                  <!-- <img class="icon" src="assets/img/portfolio/icon-time-card.1616501197.svg" alt=""> -->
+                                  <%= image_tag 'portfolio/icon-time-card.1616501197' , class: "icon" %> 
 
                                   <span><%= course.description %></span>
-                              </div>
+                                </div>
+                              <% end %>
                           </div>
                       </div>
                     <% end %>

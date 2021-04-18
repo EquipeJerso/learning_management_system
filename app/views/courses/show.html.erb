@@ -1,0 +1,15 @@
+
+
+<div class="container">
+  <div class="row" >
+    <div class="col-md-12">
+      <br><br>
+      <h2 class="page-section-heading text-uppercase text-secondary mb-0"><%= @course.name %></h2>
+
+      <p><strong>Descrição: </strong><%= @course.description %></p>
+      <% if @course.cover_picture.attached? %>
+        <%= video_tag(url_for(@course.cover_picture), controls: '') %>
+      <% end %>
+   </div>
+  </div>
+</div>
