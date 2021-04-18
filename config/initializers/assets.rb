@@ -12,3 +12,14 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+Rails.application.config.assets.precompile += [
+ 'portfolio/logo_transparent2.png',
+ 'portfolio/amd.png',
+ 'portfolio/bd.png',
+ 'portfolio/logistica.png',
+ 'portfolio/manutencao.png',
+ 'portfolio/pea.png',
+ 'portfolio/gpi.png',
+ 'portfolio/rita3_07112019210604_21102020164551.png',
+ 'sketch-design-mobile.svg'
+]

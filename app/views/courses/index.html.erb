@@ -1,9 +1,33 @@
-<h1>Cursos Disponíveis</h1>
 
-<% @courses.each do |course| %>
-  <div style="border-style: solid; border-width: 2px; border-radius: 8px; border-color: #d1d7dc">
-    <p style="margin-left: 6px">Nome: <%= course.name %></p>
-    <p style="margin-left: 6px">Descrição: <%= course.description %></p>
-  </div><br>
+<section class="page-section cursos" id="cursos">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cursos</h2>
+                <br><br><br>
+                <div class="col-md-12">
+                    <h4>UI - User Interface</h4>
+                </div>
+                <br>
+                <div class="row">
+                    <% @courses.each do |course| %>
+                      <div class="col-md-4">
+                          <div class="card-cursos">
+                              <%= link_to course_path(course) do%>
+                                <!--  <img class="icon" src="assets/img/portfolio/sketch-design-mobile.svg" alt=""> -->
+                                 <%= image_tag 'portfolio/sketch-design-mobile' , class: "icon" %> 
 
-<% end %>
+                                  <p><%= course.name %></p>
+                              
+                                <div class="tempo-curso">
+                                  <!-- <img class="icon" src="assets/img/portfolio/icon-time-card.1616501197.svg" alt=""> -->
+                                  <%= image_tag 'portfolio/icon-time-card.1616501197' , class: "icon" %> 
+
+                                  <span><%= course.description %></span>
+                                </div>
+                              <% end %>
+                          </div>
+                      </div>
+                    <% end %>
+                </div>
+        <br><br>
+    </div>
+</section>
