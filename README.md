@@ -4,7 +4,7 @@
 
 ## Grafico Burndown
 ![Grafico Burndown](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-2/Grafico%20Burndown.png)
-## Card 1 Dessa sprint
+## Card 2 Dessa sprint
 ![]()
 ### Aplicação Rodando
 ![]()
