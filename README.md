@@ -30,13 +30,13 @@
   
 ### Backlog 
 
-*Sprint 2:*
-*Interface personalizável;
-*Trilha de aprendizado;
-*Pílulas de conhecimento;
-*Repositório de documentos;
-*Biblioteca de conteúdo;
-*Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
-*Link direto para zoom ou meet.
+- Sprint 2:*
+- Interface personalizável;
+- Trilha de aprendizado;
+- Pílulas de conhecimento;
+- Repositório de documentos;
+- Biblioteca de conteúdo;
+- Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
+- Link direto para zoom ou meet.
 
 
