@@ -5,16 +5,14 @@
 ## Grafico Burndown
 ![Grafico Burndown](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-2/Grafico%20Burndown.png)
 ## Card 2
-![card 2...png](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-2/card%202...png)
+![card 2...png](https://user-images.githubusercontent.com/68261074/116173454-006f1900-a6e3-11eb-9294-2b6c52af0823.jpeg)
 ### Aplicação Rodando
-![]()
-### Modelagem de dados
-![Modelagem de dados.jpg](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-2/Modelagem%20de%20dados.jpg)
+![](https://media.giphy.com/media/t1Z3oWGWICHB1UNbSK/giphy.gif)
 
 
 *DevTeam:*
 
-- CAROLINA MARGIOTTI DE ABREU 
+- CAROLINA MARGIOTTI DE ABREU
 - GABRIEL FERREIRA FABIAN
 - JOAO VITOR DE PAULA RODRIGUES MACHADO
 - LUCAS VINICIUS DOS SANTOS ALMEIDA
@@ -27,16 +25,12 @@
 
 *Product Owner:*
 - MAYCON RAFAEL CRUZ SILVA
-  
-### Backlog 
 
-- Sprint 2:*
+### Backlog
+
+- Sprint 2:
 - Interface personalizável;
 - Trilha de aprendizado;
-- Pílulas de conhecimento;
 - Repositório de documentos;
 - Biblioteca de conteúdo;
-- Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
-- Link direto para zoom ou meet.
-
-
+- Árvore organizacional para gerenciamento dos perfis (administrador, aluno);
