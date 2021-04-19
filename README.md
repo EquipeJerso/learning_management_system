@@ -8,9 +8,9 @@
 ### Funcionalidades
 
   De forma simples e intuitiva o LMS - Learning Management System, deve funcioanr via web, com acesso via computador, tablete ou celular (pelo navegador ou aplicativo), sem a naecessidade de instalação de qualquer plug-in. A plataforma web deve aceitar a publicação de arquivos scom, mp4, mp3, pdf, jpeg e png. Seu layout deve ser de fácil personalização, possuindo templates pré definidiso, trazendo autonomia para a gestão da plataforma.
-  
+
 ### Aplicação Rodando
-![](https://media4.giphy.com/media/x4pkp94Z7oBPw6menr/giphy.gif)
+![](https://media.giphy.com/media/t1Z3oWGWICHB1UNbSK/giphy.gif)
 
 ### Disciplinas Integradas
 
@@ -21,7 +21,7 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 
 *DevTeam:*
 
-- CAROLINA MARGIOTTI DE ABREU 
+- CAROLINA MARGIOTTI DE ABREU
 - GABRIEL FERREIRA FABIAN
 - JOAO VITOR DE PAULA RODRIGUES MACHADO
 - LUCAS VINICIUS DOS SANTOS ALMEIDA
@@ -34,7 +34,7 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 
 *Product Owner:*
 - MAYCON RAFAEL CRUZ SILVA
-  
+
 ### Backlog Total
 
 *Sprint 1(crud):*
@@ -46,31 +46,31 @@ Engenharia de Softaware II (Profº. Cláudio Etelvino de Lima)
 
 *Sprint 2(estrutura e arquivos):*
 -	Interface personalizável;
--	Trilha de aprendizado; 
--	Pílulas de conhecimento; 
+-	Trilha de aprendizado;
+-	Pílulas de conhecimento;
 -	Repositório de documentos;
 -	Biblioteca de conteúdo;
 -	Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
--	Link direto para zoom ou meet. 
+-	Link direto para zoom ou meet.
 
 *Sprint 3 (tarefas):*
 -	Avaliação de reação;
--	Avaliação de habilidades técnicas com feedback; 
--	Avaliação de competências comportamentais; 
--	Relatórios personalizáveis com dashboards de indicadores; 
+-	Avaliação de habilidades técnicas com feedback;
+-	Avaliação de competências comportamentais;
+-	Relatórios personalizáveis com dashboards de indicadores;
 -	Emissão de certificado automático após conclusão (aprovação/reprovação);
 
 *Sprint 4 (finalização):*
--	Destaques; 
--	Chatbot para atendimento aos usuários; 
--	Mensagens automáticas personalizáveis e enviadas por e-mail; 
+-	Destaques;
+-	Chatbot para atendimento aos usuários;
+-	Mensagens automáticas personalizáveis e enviadas por e-mail;
 -	Calendário de eventos;
 
 
 ### Sprints
-- [Sprint-1](https://github.com/gabriel-fabian/learning_management_system/blob/Sprint-1/README.md)  08/03/2021 até 28/03/2021
+- [Sprint-1](https://github.com/EquipeJerso/learning_management_system/blob/Sprint-1/README.md)  08/03/2021 até 28/03/2021
 
-- [Sprint-2]()  29/03/2021 até 18/04/2021
+- [Sprint-2](https://github.com/EquipeJerso/learning_management_system/blob/Sprint-2/README.md)  29/03/2021 até 18/04/2021
 
 - [Sprint-3]()  26/04/2021 até 16/05/2021
 
