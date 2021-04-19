@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row" >
+    <div class="col-md-12">
+      <br><br>
+      <h2 class="page-section-heading text-uppercase text-secondary mb-0" style="text-align:center"><%= @course_lecture.course.name%> </h2>
+      <br><br>
+
+    </div>
+
+      <div class="col-md-8 player-div">
+        <% if @course_lecture.video.attached? %>
+          <%= video_tag(url_for(@course_lecture.video), controls: '') %>
+        <% else%>
+          <%= @course_lecture.description %>
+        <% end %>
+      </div>
+
+      <div class="col-md-4 lecture-bar">
+        <ul>
+          <% @course_lecture.course.course_lecture.each do |lecture| %>
+            <li><input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate1"><label class="form-check-label" for="flexCheckIndeterminate1"><%= link_to lecture.name, course_lecture_path(lecture)%></label> </li>
+          <% end %>
+
+        </ul>
+      </div>
+   
+  </div>
+</div>

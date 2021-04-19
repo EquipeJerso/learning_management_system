@@ -1,14 +1,13 @@
-
 <section class="page-section cursos" id="cursos">
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cursos</h2>
                 <br><br><br>
                 <div class="col-md-12">
-                    <h4>Listando todos os Cursos</h4>
+                    <h4><%= @course_category.name%></h4>
                 </div>
                 <br>
                 <div class="row">
-                    <% @courses.each do |course| %>
+                    <% @course_category.courses.each do |course| %>
                       <div class="col-md-4">
                           <div class="card-cursos">
                               <%= link_to course_path(course) do%>

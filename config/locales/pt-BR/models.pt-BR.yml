@@ -10,15 +10,30 @@ pt-BR:
       course:
         one: "Curso"
         other: "Cursos"
+
       user:
         one: "Usuário"
         other: "Usuários"
+
+      course_lecture:
+        one: "Lição"
+        other: "Lições"
+
+      course_category:
+        one: "Categoria"
+        other: "Categorias"
+
     attributes:
       course:
         name: "Nome"
         description: "Descrição"
         created_at: "Criado em"
         updated_at: "Atualizado em"
+        cover_picture: "Capa"
+        course_lecture: "Lições"
+        course_duration: "Duração"
+        course_category: "Categoria"
+
       user:
         username: "Nome do usuário"
         role: "Permissão"
@@ -45,3 +60,18 @@ pt-BR:
         unconfirmed_email: E-mail não confirmado
         unlock_token: Token de desbloqueio
         updated_at: Atualizado em
+
+      course_lecture:
+        name: "Nome"
+        content_type: "Tipo do Conteúdo"
+        content: "Conteúdo"
+        description: "Descrição"
+        course: "Curso"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+
+      course_category:
+        name: "Nome da Categoria"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+        cover_picture: "Imagem"
