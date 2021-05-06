@@ -8,6 +8,7 @@ Este repositório é utilizado para compartilhar as entregas para a disciplina d
     - [Objetivo](#objetivo)
     - [Equipe](#equipe---time-4)
     - [Funcionalidades](#funcionalidades)
+      - [Tecnologias Utilizadas](#tecnologias-utilizadas)
       - [Aplicação Rodando](#aplicação-rodando)
     - [Sprints](#sprints)
     - [Backlog Total](#backlog-total)
