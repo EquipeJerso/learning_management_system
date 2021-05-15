@@ -10,7 +10,8 @@ RUN apt-get update \
     &&  curl -sL https://deb.nodesource.com/setup_10.x | bash - \
     &&  apt-get update \
     &&  apt-get install -y \
-    yarn
+    yarn \
+    graphviz
 
 RUN bundle config --global frozen 1
 
