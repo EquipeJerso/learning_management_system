@@ -10397,23 +10397,31 @@ video{
   text-decoration: none;
 }
 
-.player-div,.lecture-bar{
+.media-div,.lecture-bar{
   margin-bottom: 50px;
 }
+
 .information-courses{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .information-courses h2 {
 padding-bottom: 20px;
 text-align: left !important;
 font-size: 22px;
 }
+
 .information-courses p {
   text-align: left;
   line-height: 30px;
-  }
+}
+
 .course-button {
   margin-top: 30px;
   float: right;
+}
+
+.media-div__video-player {
+  margin-bottom: 300px;
 }

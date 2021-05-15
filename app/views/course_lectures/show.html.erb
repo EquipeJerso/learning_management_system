@@ -7,9 +7,15 @@
 
     </div>
 
-      <div class="col-md-8 player-div">
+      <div class="col-md-8 media-div">
         <% if @course_lecture.video.attached? %>
-          <%= video_tag(url_for(@course_lecture.video), controls: '') %>
+          <% if @course_lecture.video.content_type.include?("video") %>
+            <div class='media-div__video-player'>
+              <%= video_tag(url_for(@course_lecture.video), controls: '') %>
+            </div>
+          <% elsif @course_lecture.video.content_type.include?("pdf") %>
+            <iframe src=<%= url_for(@course_lecture.video) %> width="716" height="700" style="border: none;"> </iframe>
+          <% end %>
         <% else%>
           <%= @course_lecture.description %>
         <% end %>
@@ -23,6 +29,6 @@
 
         </ul>
       </div>
-   
+
   </div>
 </div>
