@@ -20,6 +20,7 @@ Rails.application.config.assets.precompile += [
  'portfolio/manutencao.png',
  'portfolio/pea.png',
  'portfolio/gpi.png',
- 'portfolio/rita3_07112019210604_21102020164551.png',
+ 'portfolio/person.png',
+ 'portfolio/default_category.png',
  'sketch-design-mobile.svg'
 ]

@@ -15,7 +15,11 @@
 			<% CourseCategory.all.each do |category| %>
 				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="portfolio-item mx-auto" data-toggle="modal">
-						<%= image_tag(category.cover_picture, :class => 'img-fluid') %>
+						<% if category.cover_picture.attached? %>
+							<%= image_tag(category.cover_picture, :class => 'img-fluid') %>
+						<% else %>
+							<%= image_tag 'portfolio/default_category.png' , class: "icon" %>
+						<% end %>
 
 						<h3><%= link_to category.name, course_category_path(category)%></h3>
 					</div>
@@ -50,14 +54,14 @@
 			</div>
 
 			<div class="col-md-6">
-				<%= image_tag 'portfolio/rita3_07112019210604_21102020164551' %> 
+				<%= image_tag 'portfolio/person' %> 
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, </p>
 
 				<h5>Ana Clara</h5>
 			</div>
 
 			<div class="col-md-6">
-				<%= image_tag 'portfolio/rita3_07112019210604_21102020164551' %> 
+				<%= image_tag 'portfolio/person' %> 
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, </p>
 
 				<h5>Ana Clara</h5>

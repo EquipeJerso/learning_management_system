@@ -6,7 +6,7 @@ class Course < ApplicationRecord
 
   validates :name,
     presence: true,
-    length: { minimum: 3, maximum: 30 }
+    length: { minimum: 3, maximum: 45 }
 
   validates :description,
     presence: true
