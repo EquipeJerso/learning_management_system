@@ -10284,6 +10284,7 @@ form .row:first-child .floating-label-form-group {
   color: #2c3e50 ;
   font-size: 20px;
   text-align: justify;
+  height: 60px;
 }
 
 .card-cursos a:hover{
@@ -10340,10 +10341,9 @@ form .row:first-child .floating-label-form-group {
 
     .footer {
       padding-top: 20px;
-      padding-bottom: 20px; 
-      
+      padding-bottom: 20px;
+
     }
-    
 }
 
 .new-course label{
