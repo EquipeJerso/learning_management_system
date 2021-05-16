@@ -8,6 +8,7 @@ class CoursesController < ApplicationController
   end
 
   def show
+    commontator_thread_show(@course)
   end
 
   def new

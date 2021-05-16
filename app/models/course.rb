@@ -1,4 +1,6 @@
 class Course < ApplicationRecord
+  acts_as_commontable dependent: :destroy
+
   has_one_attached :cover_picture
 
   has_many :course_lecture

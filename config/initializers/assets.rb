@@ -23,5 +23,6 @@ Rails.application.config.assets.precompile += [
  'portfolio/person.png',
  'portfolio/default_category.png',
  'portfolio/meet-logo.png',
+ 'portfolio/bi-logo.png',
  'sketch-design-mobile.svg'
 ]

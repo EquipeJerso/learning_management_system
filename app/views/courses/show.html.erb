@@ -8,7 +8,7 @@
 
     </div>
 
-      <div class="col-md-4 information-courses"> 
+      <div class="col-md-4 information-courses">
         <% if @course.cover_picture.attached? %>
           <%= image_tag(@course.cover_picture) %>
         <% else %>
@@ -16,7 +16,7 @@
         <% end %>
       </div>
 
-      <div class="col-md-8 information-courses"> 
+      <div class="col-md-8 information-courses">
         <h2 class="page-section-heading text-uppercase text-secondary mb-0" style="text-align:center">Resumo do curso</h2>
         <p>
           <%= @course.description%>
@@ -27,6 +27,7 @@
         <% end %>
       </div>
   </div>
+  <%= commontator_thread(@course) %>
   <% if @course.meet_url %>
     <a target="_blank" href="<%= @course.meet_url %>" class="floating-icon"><%= image_tag 'portfolio/meet-logo.png', class: 'floating-icon__image' %></a>
   <% end %>

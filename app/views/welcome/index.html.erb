@@ -18,7 +18,7 @@
 						<% if category.cover_picture.attached? %>
 							<%= image_tag(category.cover_picture, :class => 'img-fluid') %>
 						<% else %>
-							<%= image_tag 'portfolio/default_category.png' , class: "icon" %>
+							<%= image_tag 'portfolio/default_category.png' , class: "img-fluid" %>
 						<% end %>
 
 						<h3><%= link_to category.name, course_category_path(category)%></h3>
@@ -70,3 +70,7 @@
 		</div>
 	</div>
 </section>
+
+  <% if current_user && current_user.role == 'admin' %>
+    <a target="_blank" href="https://app.powerbi.com/reportEmbed?reportId=0fc79747-7a2d-4a5d-893b-0ed9974fe5b8&autoAuth=true&ctid=cf72e2bd-7a2b-4783-bdeb-39d57b07f76f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" class="floating-icon"><%= image_tag 'portfolio/bi-logo.png', class: 'floating-icon__image' %></a>
+  <% end %>
