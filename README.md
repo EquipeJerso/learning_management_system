@@ -3,9 +3,9 @@
 ## Sprint 3
 
 ## Grafico Burndown
-![Grafico 3 Sprint.png](https://github.com/EquipeJerso/learning_management_system/blob/master/Grafico%203%20Sprint.png)
+![Burndown Sprint 3](https://user-images.githubusercontent.com/61850709/118410569-7ae9e380-b666-11eb-9e17-12142e6a03d9.png)
 ## Card 2
-![Modelagem de dados.jpg](https://github.com/EquipeJerso/learning_management_system/blob/master/Modelagem%20de%20dados.jpg)
+![Modelagem de Dados](https://user-images.githubusercontent.com/61850709/118410613-af5d9f80-b666-11eb-892d-997aef72a9d6.jpg)
 ### Aplicação Rodando
 ![]()
 ### Modelagem de dados
