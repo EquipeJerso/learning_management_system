@@ -21,5 +21,5 @@ RailsAdmin.config do |config|
   model_files = File.join(Rails.root, 'rails_admin', 'models', '**', '*.rb')
   Dir[model_files].each { |model_file| config.instance_eval(File.read(model_file), model_file) }
 
-  config.excluded_models = ['ActiveStorage::Blob', 'ActiveStorage::Attachment']
+  config.excluded_models = ['ActiveStorage::Blob', 'ActiveStorage::Attachment', 'UserCourse']
 end
