@@ -42,7 +42,11 @@
 
             <% if current_user %>
               <li class="nav-item mx-0 mx-lg-1">
-                <%= link_to (truncate(current_user.username,length:25)).html_safe, edit_user_registration_path,class:'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' , title: 'Editar Perfil' %>
+                <%= link_to('Meus Cursos', user_courses_path, class:'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger') %>
+              </li>
+
+              <li class="nav-item mx-0 mx-lg-1">
+                <%= link_to (truncate('Minha Conta')).html_safe, edit_user_registration_path, class:'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' , title: 'Editar Perfil' %>
               </li>
 
               <li class="nav-item mx-0 mx-lg-1" id="logout-btn">
