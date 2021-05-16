@@ -5,11 +5,11 @@
 ## Grafico Burndown
 ![Burndown Sprint 3](https://user-images.githubusercontent.com/61850709/118410569-7ae9e380-b666-11eb-9e17-12142e6a03d9.png)
 ## Card 2
-![Modelagem de Dados](https://user-images.githubusercontent.com/61850709/118410613-af5d9f80-b666-11eb-892d-997aef72a9d6.jpg)
+![]()
 ### Aplicação Rodando
 ![]()
 ### Modelagem de dados
-![]()
+![Modelagem de Dados](https://user-images.githubusercontent.com/61850709/118410613-af5d9f80-b666-11eb-892d-997aef72a9d6.jpg)
 
 
 *DevTeam:*
