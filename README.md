@@ -9,12 +9,10 @@ Este repositório é utilizado para compartilhar as entregas para a disciplina d
   - [Funcionalidades](#funcionalidades)
     - [Tecnologias Utilizadas](#tecnologias-utilizadas)
     - [Aplicação Rodando](#aplicação-rodando)
-  - [Sprints](#sprints)
-  - [Backlog Total](#backlog-total)
-    - [Sprint 01 – 08/03/2021 até 28/03/2021](#sprint-01--08032021-até-28032021)
-    - [Sprint 02 – 29/03/2021 até 18/04/2021](#sprint-02--29032021-até-18042021)
-    - [Sprint 03 – 26/04/2021 até 16/05/2021](#sprint-03--26042021-até-16052021)
-    - [Sprint 04 – 17/05/2021 até 11/06/2021](#sprint-04--17052021-até-11062021)
+    - [Modelagem de Dados](#modelagem-de-dados)
+  - [Certificado Emitido ao Aluno](##certificado-emitido-ao-aluno)
+  - [Grafico Burndown](#grafico-burndown)
+  - [Card Sprint 3](#card-sprint-3)
 
 ## Links Relacionados
  - [Instalação do Projeto](README.INSTALLATION.md)
@@ -48,10 +46,10 @@ De forma simples e intuitiva o LMS - Learning Management System, deve funcionar 
   - [PowerBI](https://powerbi.microsoft.com/)
 
 ### Aplicação Rodando
-![](https://media.giphy.com/media/t1Z3oWGWICHB1UNbSK/giphy.gif)
+![](https://media.giphy.com/media/3bOGVxZFJMumEQ45Kr/giphy.gif)
 
 ### Modelagem de dados
-![]()
+![](https://user-images.githubusercontent.com/61850709/118586302-e28c5580-b770-11eb-8d3b-d62f041160f7.png)
 
 ### Certificado Emitido ao Aluno
 ![](https://user-images.githubusercontent.com/61850709/118570225-1b690200-b752-11eb-825b-ecc171b1b203.png)
