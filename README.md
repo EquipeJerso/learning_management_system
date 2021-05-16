@@ -48,7 +48,8 @@ De forma simples e intuitiva o LMS - Learning Management System, deve funcionar 
 
 ### Aplicação Rodando
 ![](https://media.giphy.com/media/t1Z3oWGWICHB1UNbSK/giphy.gif)
-
+### Modelagem de dados
+![](https://github.com/EquipeJerso/learning_management_system/blob/master/Modelagem%20de%20dados.jpg)
 ## Sprints
 
 Sprint | Datas
