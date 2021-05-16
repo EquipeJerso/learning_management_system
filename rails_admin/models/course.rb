@@ -5,6 +5,7 @@ config.model 'Course' do
     field :name
     field :description, :text
     field :cover_picture
+    field :meet_url
     field :course_duration
     field :course_category do
       inline_edit false

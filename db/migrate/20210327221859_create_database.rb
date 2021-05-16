@@ -32,6 +32,7 @@ class CreateDatabase < ActiveRecord::Migration[6.0]
     create_table :courses do |t|
       t.string :name
       t.string :description
+      t.string :meet_url
       t.integer :course_duration
       t.references :course_category, null: true, foreign_key: {to_table: :course_categories}
 

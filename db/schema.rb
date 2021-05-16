@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 2021_03_27_221859) do
   create_table "courses", force: :cascade do |t|
     t.string "name"
     t.string "description"
+    t.string "meet_url"
     t.integer "course_duration"
     t.bigint "course_category_id"
     t.datetime "created_at", precision: 6, null: false

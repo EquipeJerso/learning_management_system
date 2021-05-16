@@ -15,7 +15,7 @@
           <%= image_tag 'portfolio/sketch-design-mobile' , class: "icon" %>
         <% end %>
       </div>
-     
+
       <div class="col-md-8 information-courses"> 
         <h2 class="page-section-heading text-uppercase text-secondary mb-0" style="text-align:center">Resumo do curso</h2>
         <p>
@@ -27,4 +27,7 @@
         <% end %>
       </div>
   </div>
+  <% if @course.meet_url %>
+    <a target="_blank" href="<%= @course.meet_url %>" class="floating-icon"><%= image_tag 'portfolio/meet-logo.png', class: 'floating-icon__image' %></a>
+  <% end %>
 </div>

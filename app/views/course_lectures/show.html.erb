@@ -31,4 +31,7 @@
       </div>
 
   </div>
+  <% if @course.meet_url %>
+    <a target="_blank" href="<%= @course.meet_url %>" class="floating-icon"><%= image_tag 'portfolio/meet-logo.png', class: 'floating-icon__image' %></a>
+  <% end %>
 </div>
