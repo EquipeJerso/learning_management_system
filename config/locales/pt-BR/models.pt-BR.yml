@@ -63,9 +63,7 @@ pt-BR:
 
       course_lecture:
         name: "Nome"
-        content_type: "Tipo do Conteúdo"
         content: "Conteúdo"
-        description: "Descrição"
         course: "Curso"
         created_at: "Criado em"
         updated_at: "Atualizado em"

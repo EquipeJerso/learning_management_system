@@ -40,8 +40,6 @@ class CreateDatabase < ActiveRecord::Migration[6.0]
 
     create_table :course_lectures do |t|
       t.string :name
-      t.string :content_type
-      t.text :description
       t.references :course, null: false, foreign_key: true
 
       t.timestamps

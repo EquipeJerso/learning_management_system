@@ -1,14 +1,9 @@
 class CourseLecture < ApplicationRecord
-  has_one_attached :video
+  has_one_attached :media
 
   belongs_to :course
 
-  CONTENT_TYPE_ENUM = [
-    'Texto',
-    'Vídeo',
-  ]
-
-  validates :content_type,
+  validates :media,
     presence: true
 
   validates :name,

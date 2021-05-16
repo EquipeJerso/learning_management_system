@@ -8,13 +8,13 @@
     </div>
 
       <div class="col-md-8 media-div">
-        <% if @course_lecture.video.attached? %>
-          <% if @course_lecture.video.content_type.include?("video") %>
+        <% if @course_lecture.media.attached? %>
+          <% if @course_lecture.media.content_type.include?("video") %>
             <div class='media-div__video-player'>
-              <%= video_tag(url_for(@course_lecture.video), controls: '') %>
+              <%= video_tag(url_for(@course_lecture.media), controls: '') %>
             </div>
-          <% elsif @course_lecture.video.content_type.include?("pdf") %>
-            <iframe src=<%= url_for(@course_lecture.video) %> width="716" height="700" style="border: none;"> </iframe>
+          <% elsif @course_lecture.media.content_type.include?("pdf") %>
+            <iframe src=<%= url_for(@course_lecture.media) %> width="716" height="700" style="border: none;"> </iframe>
           <% end %>
         <% else%>
           <%= @course_lecture.description %>
