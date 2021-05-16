@@ -1,4 +1,4 @@
-# LMS - Projeto Integrador FATECSJC 2021_1
+# LMS - Projeto Integr FATECSJC 2021_1
 
 Este repositório é utilizado para compartilhar as entregas para a disciplina de Engenharia de Softaware II, ministrada pelo professor Cláudio Etelvino de Lima.
 
