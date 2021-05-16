@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :courses
   resources :course_lectures
   resources :course_categories
+  resources :user_courses
 end

@@ -2,6 +2,7 @@ class Course < ApplicationRecord
   has_one_attached :cover_picture
 
   has_many :course_lecture
+  has_many :user_course
   belongs_to :course_category
 
   validates :name,

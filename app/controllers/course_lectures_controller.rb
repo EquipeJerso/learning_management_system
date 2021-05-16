@@ -1,5 +1,7 @@
 class CourseLecturesController < ApplicationController
   before_action :set_course_lecture, only: %i[ show edit update destroy ]
+  before_action :set_course, only: %i[ show ]
+  before_action :add_course_to_user, only: %i[ show ]
 
   # GET /course_lectures or /course_lectures.json
   def index
@@ -62,8 +64,24 @@ class CourseLecturesController < ApplicationController
       @course_lecture = CourseLecture.find(params[:id])
     end
 
+    def set_course
+      @course = @course_lecture.course
+    end
+
     # Only allow a list of trusted parameters through.
     def course_lecture_params
       params.require(:course_lecture).permit(:type, :content, :course_id)
+    end
+
+    def add_course_to_user
+      if course_already_registered?()
+        current_user.user_course.where(course_id: @course.id).take.touch
+      else
+        UserCourse.create!(user_id: current_user.id, course_id: @course.id)
+      end
+    end
+
+    def course_already_registered?
+      return current_user.user_course.where(course_id: @course.id).any?
     end
 end
