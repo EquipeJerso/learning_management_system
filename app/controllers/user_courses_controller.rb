@@ -63,7 +63,7 @@ class UserCoursesController < ApplicationController
     end
 
     def set_courses
-      @courses = current_user.user_course.map(&:course)
+      @courses = current_user.user_course.order('updated_at DESC').map(&:course)
     end
 
     # Only allow a list of trusted parameters through.
