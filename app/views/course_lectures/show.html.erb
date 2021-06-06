@@ -17,7 +17,7 @@
               <%= link_to "ACESSAR CERTIFICADO", course_certificate_path(@course_certificate), class: 'btn btn-primary course-button' %>
             <% end %>
             <% if @course.course_lecture.any? && !@course_certificate %>
-              <% if @course.course_lecture.last.id == @course.course_lecture.id %>
+              <% if @course.course_lecture.last.id == @course_lecture.id %>
                 <%= link_to "GERAR CERTIFICADO", course_certificates_path(:user_id => current_user.id, :course_id => @course_lecture.course.id), :method => :post, class: 'btn btn-primary course-button' %>
               <% end %>
             <% end %>
