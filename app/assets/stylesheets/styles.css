@@ -10422,10 +10422,6 @@ font-size: 22px;
   float: right;
 }
 
-.media-div__video-player {
-  margin-bottom: 300px;
-}
-
 .floating-icon {
   width: 60px;
   height: 60px;
@@ -10449,4 +10445,42 @@ font-size: 22px;
 .floating-icon__image {
   max-width: 100;
   width: 70%;
+}
+
+.certificate__container {
+  margin: 24px auto 24px auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: Georgia, serif;
+  border: 14px solid #2c3e50;
+  width: 750px;
+  min-height: 480px;
+  display: block;
+}
+.certificate__logo {
+  font-size: 36px;
+  color: #1abc9c;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+.certificate__marquee {
+  color: #1abc9c;
+  font-size: 48px;
+  margin: 20px;
+}
+.certificate__assignment {
+  margin: 20px;
+}
+.certificate__person {
+  border-bottom: 2px solid black;
+  font-size: 32px;
+  font-style: italic;
+  margin: 20px auto;
+  width: 400px;
+}
+.certificate__reason {
+  margin: 20px;
+}
+.certificate__course {
+  color: #1abc9c;
 }

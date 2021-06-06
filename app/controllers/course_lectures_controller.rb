@@ -4,6 +4,7 @@ class CourseLecturesController < ApplicationController
   before_action :set_course_lecture, only: %i[show edit update destroy]
   before_action :set_course, only: %i[show]
   before_action :add_course_to_user, only: %i[show]
+  before_action :set_course_certificate, only: %i[ show edit update destroy ]
 
   # GET /course_lectures or /course_lectures.json
   def index
@@ -63,6 +64,10 @@ class CourseLecturesController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_course_lecture
     @course_lecture = CourseLecture.find(params[:id])
+  end
+
+  def set_course_certificate
+    @course_certificate = CourseCertificate.where(user_id: current_user.id, course_id: @course.id).first
   end
 
   def set_course

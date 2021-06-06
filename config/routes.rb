@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   resources :course_lectures
   resources :course_categories
   resources :user_courses
+  resources :course_certificates
 end

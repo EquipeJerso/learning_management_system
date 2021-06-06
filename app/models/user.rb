@@ -6,6 +6,7 @@ class User < ApplicationRecord
   ROLES = %w[admin user].freeze
 
   has_many :user_course
+  has_many :course_certificates
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable

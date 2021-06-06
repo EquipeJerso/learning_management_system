@@ -88,12 +88,21 @@ ActiveRecord::Schema.define(version: 20_210_518_000_651) do
     t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table 'course_lectures', force: :cascade do |t|
-    t.string 'name'
-    t.bigint 'course_id', null: false
-    t.datetime 'created_at', precision: 6, null: false
-    t.datetime 'updated_at', precision: 6, null: false
-    t.index ['course_id'], name: 'index_course_lectures_on_course_id'
+  create_table "course_certificates", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "course_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["course_id"], name: "index_course_certificates_on_course_id"
+    t.index ["user_id"], name: "index_course_certificates_on_user_id"
+  end
+
+  create_table "course_lectures", force: :cascade do |t|
+    t.string "name"
+    t.bigint "course_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["course_id"], name: "index_course_lectures_on_course_id"
   end
 
   create_table 'courses', force: :cascade do |t|
@@ -130,15 +139,14 @@ ActiveRecord::Schema.define(version: 20_210_518_000_651) do
     t.index ['reset_password_token'], name: 'index_users_on_reset_password_token', unique: true
   end
 
-  add_foreign_key 'active_storage_attachments', 'active_storage_blobs', column: 'blob_id'
-  add_foreign_key 'commontator_comments', 'commontator_comments', column: 'parent_id', on_update: :restrict,
-                                                                  on_delete: :cascade
-  add_foreign_key 'commontator_comments', 'commontator_threads', column: 'thread_id', on_update: :cascade,
-                                                                 on_delete: :cascade
-  add_foreign_key 'commontator_subscriptions', 'commontator_threads', column: 'thread_id', on_update: :cascade,
-                                                                      on_delete: :cascade
-  add_foreign_key 'course_lectures', 'courses'
-  add_foreign_key 'courses', 'course_categories'
-  add_foreign_key 'user_courses', 'courses'
-  add_foreign_key 'user_courses', 'users'
+  add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "commontator_comments", "commontator_comments", column: "parent_id", on_update: :restrict, on_delete: :cascade
+  add_foreign_key "commontator_comments", "commontator_threads", column: "thread_id", on_update: :cascade, on_delete: :cascade
+  add_foreign_key "commontator_subscriptions", "commontator_threads", column: "thread_id", on_update: :cascade, on_delete: :cascade
+  add_foreign_key "course_certificates", "courses"
+  add_foreign_key "course_certificates", "users"
+  add_foreign_key "course_lectures", "courses"
+  add_foreign_key "courses", "course_categories"
+  add_foreign_key "user_courses", "courses"
+  add_foreign_key "user_courses", "users"
 end

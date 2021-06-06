@@ -7,6 +7,7 @@ class Course < ApplicationRecord
 
   has_many :course_lecture
   has_many :user_course
+  has_many :course_certificates
   belongs_to :course_category
 
   validates :name,
