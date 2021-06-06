@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class User < ApplicationRecord
   acts_as_commontator
 
-  ROLES = %w[admin user]
+  ROLES = %w[admin user].freeze
 
   has_many :user_course
 

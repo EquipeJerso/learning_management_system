@@ -1,10 +1,10 @@
+# frozen_string_literal: true
+
 class CoursesController < ApplicationController
-  before_action :set_course, only: [:show, :update, :edit, :destroy]
+  before_action :set_course, only: %i[show update edit destroy]
 
   def index
-
-    @courses = Course.order("created_at DESC")
-
+    @courses = Course.order('created_at DESC')
   end
 
   def show
@@ -15,11 +15,9 @@ class CoursesController < ApplicationController
     @course = Course.new
   end
 
-  def edit
-  end
+  def edit; end
 
   def create
-
     @course = Course.new(course_params)
 
     if @course.save
@@ -45,15 +43,16 @@ class CoursesController < ApplicationController
   end
 
   private
-    def course_params
-      params.require(:course).permit(
-        :name,
-        :description,
-        :cover_picture
-      )
-    end
 
-    def set_course
-      @course = Course.find(params[:id])
-    end
+  def course_params
+    params.require(:course).permit(
+      :name,
+      :description,
+      :cover_picture
+    )
+  end
+
+  def set_course
+    @course = Course.find(params[:id])
+  end
 end

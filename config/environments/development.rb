@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 require 'socket'
 require 'ipaddr'
 
 Rails.application.configure do
   config.assets.check_precompiled_asset = false
-
 
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -76,11 +77,11 @@ Rails.application.configure do
   #   Socket.ip_address_list.each do |addrinfo|
   #     next unless addrinfo.ipv4?
   #     next if addrinfo.ip_address == "127.0.0.1" # Already whitelisted
-  
+
   #     ip = IPAddr.new(addrinfo.ip_address).mask(24)
-  
+
   #     Logger.new(STDOUT).info "Adding #{ip.inspect} to config.web_console.whitelisted_ips"
-  
+
   #     config.web_console.whitelisted_ips = ip
   #   end
   # end

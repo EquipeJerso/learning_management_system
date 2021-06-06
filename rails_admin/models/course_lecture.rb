@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 config.model 'CourseLecture' do
   parent 'Course'
-  weight -2
+  weight(-2)
 
   edit do
     field :name

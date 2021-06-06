@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 config.model User do
   edit do
     field :username

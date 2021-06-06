@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Course < ApplicationRecord
   acts_as_commontable dependent: :destroy
 
@@ -8,9 +10,9 @@ class Course < ApplicationRecord
   belongs_to :course_category
 
   validates :name,
-    presence: true,
-    length: { minimum: 3, maximum: 45 }
+            presence: true,
+            length: { minimum: 3, maximum: 45 }
 
   validates :description,
-    presence: true
+            presence: true
 end

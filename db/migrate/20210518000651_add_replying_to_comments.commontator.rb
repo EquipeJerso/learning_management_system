@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This migration comes from commontator (originally 11)
 class AddReplyingToComments < ActiveRecord::Migration[6.0]
   def change

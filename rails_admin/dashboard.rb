@@ -1,12 +1,13 @@
-  config.actions do
-    dashboard                     # mandatory
-    index                         # mandatory
-    new
-    export
-    bulk_delete
-    show
-    edit
-    delete
-    show_in_app
+# frozen_string_literal: true
 
-  end
+config.actions do
+  dashboard                     # mandatory
+  index                         # mandatory
+  new
+  export
+  bulk_delete
+  show
+  edit
+  delete
+  show_in_app
+end
