@@ -45,11 +45,12 @@ De forma simples e intuitiva o LMS - Learning Management System, deve funcionar 
   - [Ruby On Rails](https://rubyonrails.org/)
   - [Bootstrap](https://getbootstrap.com/)
   - [PostgreSQL](https://www.postgresql.org/)
+  - [Docker](https://www.docker.com/)
 
 ### Aplicação Rodando
-![](https://media.giphy.com/media/3bOGVxZFJMumEQ45Kr/giphy.gif)
+![](https://media.giphy.com/media/VJF0zRSXkUOvfar0g7/giphy.gif)
 ### Modelagem de dados
-![](https://user-images.githubusercontent.com/61850709/118586302-e28c5580-b770-11eb-8d3b-d62f041160f7.png)
+![](https://user-images.githubusercontent.com/61850709/121132550-a8f6b980-c807-11eb-8bd4-fad31f722263.png)
 ## Sprints
 
 Sprint | Datas
