@@ -9,12 +9,10 @@ Este repositório é utilizado para compartilhar as entregas para a disciplina d
   - [Funcionalidades](#funcionalidades)
     - [Tecnologias Utilizadas](#tecnologias-utilizadas)
     - [Aplicação Rodando](#aplicação-rodando)
-  - [Sprints](#sprints)
-  - [Backlog Total](#backlog-total)
-    - [Sprint 01 – 08/03/2021 até 28/03/2021](#sprint-01--08032021-até-28032021)
-    - [Sprint 02 – 29/03/2021 até 18/04/2021](#sprint-02--29032021-até-18042021)
-    - [Sprint 03 – 26/04/2021 até 16/05/2021](#sprint-03--26042021-até-16052021)
-    - [Sprint 04 – 17/05/2021 até 11/06/2021](#sprint-04--17052021-até-11062021)
+    - [Modelage de Dados](#modelagem-de-dados)
+    - [Burndown](#grafico-burndown)
+    - [Card Sprint 4](#card-sprint-3)
+    - [backlog](#backlog)
 
 ## Links Relacionados
  - [Instalação do Projeto](README.INSTALLATION.md)
@@ -51,49 +49,14 @@ De forma simples e intuitiva o LMS - Learning Management System, deve funcionar 
 ![](https://media.giphy.com/media/A0IZRE1hhCFkBiG2eg/giphy.gif)
 ### Modelagem de dados
 ![](https://user-images.githubusercontent.com/61850709/121132550-a8f6b980-c807-11eb-8bd4-fad31f722263.png)
-## Sprints
+## Grafico Burndown
+![](https://user-images.githubusercontent.com/61850709/121137461-0b05ed80-c80d-11eb-9cf8-f0a33b2d00b9.png)
 
-Sprint | Datas
------------- | -------------
-[Sprint 1](https://github.com/EquipeJerso/learning_management_system/blob/Sprint-1/README.md) | 08/03/2021 até 28/03/2021
-[Sprint 2](https://github.com/EquipeJerso/learning_management_system/blob/Sprint-2/README.md) | 29/03/2021 até 18/04/2021
-[Sprint 3](https://github.com/EquipeJerso/learning_management_system/tree/Sprint-3/README.md) | 26/04/2021 até 16/05/2021
-[Sprint 4]() | 17/05/2021 até 11/06/2021
+## Card Sprint 4
+![](https://user-images.githubusercontent.com/61850709/121137661-456f8a80-c80d-11eb-8e85-ba5e6a8b653c.png)
 
-## Backlog Total
+## Backlog
 
-
-### Sprint 01 – 08/03/2021 até 28/03/2021
-Objetivo: CRUD.
-
--	Acesso por meio de login e senha;
--	Log do usuario registrado na plataforma;
--	Layout responsivo;
--	Cadastro de usuários - administrador, gestor, tutor, aluno;
--	Catálogo de cursos;
-
-
-### Sprint 02 – 29/03/2021 até 18/04/2021
-Objetivo: Estrutura e arquivos.
-
--	Interface personalizável;
--	Trilha de aprendizado;
--	Pílulas de conhecimento;
--	Repositório de documentos;
--	Biblioteca de conteúdo;
--	Árvore organizacional para gerenciamento dos perfis (administrador, gestor, tutor, aluno);
--	Link direto para zoom ou meet.
-
-### Sprint 03 – 26/04/2021 até 16/05/2021
-Objetivo: Tarefas.
-
--	Avaliação de reação;
--	Avaliação de habilidades técnicas com feedback;
--	Avaliação de competências comportamentais;
--	Relatórios personalizáveis com dashboards de indicadores;
--	Emissão de certificado automático após conclusão (aprovação/reprovação);
-
-### Sprint 04 – 17/05/2021 até 11/06/2021
 Objetivo: Finalização.
 
 -	Destaques;
